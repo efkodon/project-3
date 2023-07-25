@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Seismic Schools Data WA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+        <div class="section">
+            <div class="container content">
+    <div class="section">
+      <div class="image">
+          <img src="images/nisqually.jpg" alt="fallen bricks on a sidewalk">
+          <p class="image__caption"><span>Damage from the 6.8 magnitude Nisqually Earthquake in 2001 (courtesy of the Seattle Municipal Archives #169376)</span></p>
+      </div>
+      <div class="section">
+        <div class="container content">
+            <h1 class="title">A Parent’s Search for Information about the Earthquake Readiness of Washington State Schools</h1>
+        </p>
+            <div class="plot-holder">
+                <p><strong>By Emily Keller-O'Donnell</strong></p>
+                <p class="date">July 25, 2023</p>
+                <p> As the start of the 2023-2024 school year approaches, understanding the seismic risk level of K-12 schools in earthquake-prone Washington State is a complex challenge.
+                </p>
+                <p> At a recent visit to my local elementary school in Shoreline, a longtime staff member was unsure about whether the school had received a seismic retrofitting given its old age. The school was originally constructed in 1952, long before seismic standards were modernized in the 1990s. I was advised to contact the district for an answer. Instead, I began to research data across the state for a journalism project at the <a href="https://ledeprogram.com/">Lede Program</a>. I found that there are multiple state initiatives underway to improve tracking and fund construction and renovation at high risk schools, but that the availability and interpretability of this data remains limited and confusing.
+                </p>
+                <h3><strong>Statewide Efforts to Improve Data Collection and Upgrade Buildingss</strong></h3>
+                <p>
+                From 2017-2021, the Washington State Department of Natural Resources led the <a href="https://www.dnr.wa.gov/school-seismic-safety">School Seismic Safety Project (SSSP)</a>, with $3.4 million in state funding, to conduct geological and engineering assessments of 561 public school buildings at 339 schools. The <a href="https://fortress.wa.gov/dnr/geologydata/school_seismic_safety/phase2/School_Seismic_Safety_Project_2021_Final_Report_DNR.pdf">final report</a> identified more than 80 very high risk buildings and more than 270 high risk buildings across the state. I examined this data by scraping a 47-page PDF chart from the final report, which identified schools by their names and districts but did not provide addresses. Then I manually matched the majority of these schools with addresses from the <a href="https://geo.wa.gov/datasets/23bbd746f9924c149681815cfd2a6300/explore?location=47.266088%2C-120.802250%2C7.02&showTable=true">Washington Geospatial Open Data Portal</a> to create a <a href="https://efkodon.github.io/wa-schools-seismic/">map</a>, with some guess work due to variations in how school names are recorded between the datasets. Ten buildings could not be reliably matched and were omitted. 
+                </p>
+                <p>The SSSP assessments represented about 14 percent of the state's more than 4,000 public school buildings for grades K-12 that are listed in the open data portal. None of the 18 schools in my district were included. Private schools were also not included.
+                </p>
+                In 2022, the Washington State legislature <a href="https://app.leg.wa.gov/billsummary?BillNumber=5933&Year=2021">passed a bill</a> establishing the <a href="https://www.k12.wa.us/sites/default/files/public/communications/2022docs/C9-School-Seismic-Safety-Grant-Program.pdf">School Seismic Safety program</a> to provide planning and construction funds for K-12 public schools to retrofit or relocate their buildings for better protection against earthquakes and tsunamis. The program is expected to provide $500 million to schools via grant applications from 2023-2033. However, the SSSP final report estimates that upgrading all public schools would cost billions of dollars.
+                </p>
+                <div class="image">
+                  <img src="images/sssp_report.png" alt="diagram showing the probability of earthquakes from different fault lines">
+                  <br>
+                  <p class="image__caption"><span>Source: School Seismic Safety Project
+                    2019–2021 Legislative Report</span></p>
+                </div>
+                <br>
+                <p>The final report from the SSSP study, published in June 2021, recommended conducting a statewide inventory of school districts to collect data about which facilities have had seismic upgrades. Two years later, that effort is well underway. A public records request to the <a href="https://www.k12.wa.us/">Washington Office of Superintendent of Public Instruction (OSPI)</a> yielded a spreadsheet with more than 6,500 public school buildings. Fields include year built, type of construction, whether the building has been retrofitted, soil type, evaluation status, risk level, <a href="https://www.usgs.gov/faqs/what-liquefaction#:~:text=Liquefaction%20takes%20place%20when%20loosely,cause%20major%20damage%20during%20earthquakes.">liquefaction</a>, and more. I see that none of the five “very high risk” schools or the two “high risk” schools in my district have been retrofitted, although several have been recently rebuilt. As the data collection is ongoing, there are fields with missing data, as well as historial (outdated) data for buildings that have since been rebuilt. While OSPI has been responsive to my requests, this static version of the dataset will soon be outdated, with no public version currently available to check for updates. (It is also unclear why the schools in my district are listed as “rural” when they are located in a city).
+                </p>
+                <p>The SSSP final report notes that buildings made with unreinforced masonry (URM) before the 1940s, and non-ductile concrete buildings (without seismic upgrades) constructed before the mid-1970s, face the high risk of collapse in an earthquake. Secondarily, buildings that were constructed prior to 1975 out of reinforced masonry and wood frame materials are also vulnerable to collapse. I look back at my data to examine the presence of URM construction in public school buildings.
+                </p>
+                <h3>What’s an Unreinforced Masonry Building (URM)?</h3>
+                <p>The dangers posed by URM buildings in an earthquake have been in the news for years, although identifying these buildings with precision remains challenging. Buildings constructed with unreinforced masonry can be identified via an observable <a href="https://www.seattle.gov/emergency-management/hazards/unreinforced-masonry-buildings-(urm)-">brick pattern</a> with a narrow brick width every 5-6 rows, and by low or flat arched windows, historical records, and on-site assessments. The buildings <a href="https://www.commerce.wa.gov/programs/research-services/unreinforced-masonry-building-inventory/">may be constructed</a> with red bricks or sometimes clay tiles. However, there are numerous “suspected” rather than confirmed URMs in our region.
+                </p>
+                <p>In 2018, the Washington State Department of Commerce <a href="https://www.commerce.wa.gov/programs/research-services/unreinforced-masonry-building-inventory/">announced</a> plans to create an inventory of URM buildings. According to the announcement, the study identified 1,176 confirmed URM buildings, including 219 school facilities (both public and private). The public release of the URM database received a wave of press coverage, but in 2023, the original <a href="http://www.gartrellgroup.net/WashURMViewer/#7/47.347/-121.029/">database link</a> provided in the media reports no longer works. The database, now known as the Washington URM Dashboard, can now be found <a href="https://fortress.wa.gov/com/urmasonary/urmasonary/#7/47.347/-121.029/">here</a>. 
+                  <div class="image">
+                    <img src="images/urm_fema.png" alt="picture of a patterned brick wall with labels">
+                    <br>
+                    <p class="image__caption"><span>Source: FEMA P-774, Unreinforced Masonry Buildings and Earthquakes, Developing Successful Risk Reduction Programs</span></p>
+                  </div>
+                </p>
+                <p>Exploring the Washington URM Dashboard yields the following findings: Clicking on a link to “Schools” from the announcement page loads a <a href="https://deptofcommerce.app.box.com/v/wa-urm-schools">short PDF</a> that breaks the 219 school facilities into 76 identified URMs and 143 “identified or suspected URM buildings”; not the 219 “confirmed” URMs originally announced. Searching the dashboard for “identified URMs” that are schools yields 76 results, which are part of a total of 218 “identified or suspected URMs” - slightly different than the original total of 219. There appears to be no option to download the data. Schools on the map are identified by their address, but many of the school names are missing. There is no keyword search box to look for properties by name, so the only way to search the map is by zooming into known addresses. 
+                </p>
+                <p>Looking at the OSPI data about the seismic risk and retrofit status of Washington public schools shows three construction types that include some type of URM: “unreinforced masonry bearing walls”, “concrete frame buildings with URM infill walls”, and “steel frame with unreinforced masonry infill walls.” There are 134 schools with at least one of these construction types (including one school that is currently being rebuilt). Since the typical definition of URMs refers to buildings that were constructed before 1940, I try sorting by age to look for a pattern between the 3 URM types, but it is still unclear which ones may present the highest risk. 
+                </p>
+                  <div class="image">
+                      <img src="images/brick1.jpg" alt="the side of a building made of red brick">
+                  </div>
+                <br>
+                <p>My local school, which has a “very high” risk rating in the OSPI data, contains one of the URM types in two out of six building areas that are listed. This marks an increase from the school’s “high” risk, as noted in an undated <a href="https://www.shorelineschools.org/cms/lib/WA02217114/Centricity/Domain/4/PrehazardMitigationPlan_DRAFT.pdf">Pre-Hazard Mitigation Plan</a>Pre-Hazard Mitigation Plan for the district. Five of the six building areas that OSPI lists for the school are labeled as the “main area” of the “main building,” without a clear differentiation about where they sit in physical space. From the inside, the school is separated into two sections for older and younger grades, plus the gym/ cafeteria, but these distinctions are unclear in the data. So I drive over to look for the characteristic brick pattern that is often used to identify URM buildings. I don’t see it. Phew. I snap some pictures. I drive home. Then I look more closely. I think I do see it. But my local school is not among the 34 public schools that are listed in the Washington URM Dashboard, creating more uncertainty. 
+                </p>
+                <h3>Next Steps</h3>
+                <p>Like many parents, I researched the local public schools before moving to my current home. In Washington State, this is often done via the <a href="https://washingtonstatereportcard.ospi.k12.wa.us/">Washington School Report Card</a> published by OSPI, which contains information per school about enrollment, teacher experience, grades, per pupil expenditures, and more. The ratings were positive. But there is no information about the age or safety of school facilities, or their seismic retrofit status. As the longtime school staff member told me on my visit to my local school, “I’m sure it is up to code.” Additional research will be needed to determine whether this is true.
+                </p>
+                <p>As a journalist, I have a professional obligation to reach out to the state agencies that put these resources together to give them the opportunity to explain the nuances and offer insight for publication, and I plan to do so. I have been fortunate so far to receive responses to my early inquiries, with more information forthcoming. But as a parent looking for school information via existing online resources, this confusing, unsettling and time-consuming experience is also worthy of documentation. Hopefully the continued data collection across the state will resolve some of these gray areas soon.
+                </p>
+                <p>For more information on this project, visit the <a href="https://github.com/efkodon/schools_data_access">Github repository</a>.
+                </p>
+                <div class="plot-holder">
+    </div>
+  </section>
+  </body>
+</html>
+
