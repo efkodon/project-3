@@ -6,7 +6,7 @@
             <div class="container content">
                 <h1 class="title">The Search for Information about the Earthquake Readiness of Washington State Schools</h1>
                 <h2 class="title">Overview</h2>
-                <p> I created this project as a student in The Lede Program at Columbia University's Graduate School of Journalism. My goal was to explore a dataset from the Washington Office of Superintendent of Public Instruction (OSPI) that contained more than 6,500 rows of data about structural and seismic information at school buildings. I received the data by submitting a public records request for a database that was described in the <a href="https://fortress.wa.gov/dnr/geologydata/school_seismic_safety/phase2/School_Seismic_Safety_Project_2021_Final_Report_DNR.pdf">School Seismic Safety Project (SSSP) 2019–2021 Legislative Report</a>
+                <p> I created this project as a student in The Lede Program at Columbia University's Graduate School of Journalism. My goal was to explore a dataset from the Washington Office of Superintendent of Public Instruction (OSPI) that contained more than 6,500 rows of data about structural and seismic information at school buildings. I received the data by submitting a public records request for a database that was described in the <a href="https://fortress.wa.gov/dnr/geologydata/school_seismic_safety/phase2/School_Seismic_Safety_Project_2021_Final_Report_DNR.pdf">School Seismic Safety Project (SSSP) 2019–2021 Legislative Report</a>.
                 </p>
                 <p>
                 </p>
