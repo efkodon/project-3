@@ -6,7 +6,7 @@
             <div class="container content">
                 <h1 class="title">The Search for Information about the Earthquake Readiness of Washington State Schools</h1>
                 <h2 class="title">Overview</h2>
-                <p> I created this project as a student in The Lede Program at Columbia University's Graduate School of Journalism. My goal was to explore a dataset from the Washington Office of Superintendent of Public Instruction (OSPI) that contained more than 6,500 rows of data about structural and seismic information about school buildings. I received the data by submitting a public records request for a database that was described in the <a href="https://fortress.wa.gov/dnr/geologydata/school_seismic_safety/phase2/School_Seismic_Safety_Project_2021_Final_Report_DNR.pdf">School Seismic Safety Project (SSSP) 2019–2021 Legislative Report</a>
+                <p> I created this project as a student in The Lede Program at Columbia University's Graduate School of Journalism. My goal was to explore a dataset from the Washington Office of Superintendent of Public Instruction (OSPI) that contained more than 6,500 rows of data about structural and seismic information at school buildings. I received the data by submitting a public records request for a database that was described in the <a href="https://fortress.wa.gov/dnr/geologydata/school_seismic_safety/phase2/School_Seismic_Safety_Project_2021_Final_Report_DNR.pdf">School Seismic Safety Project (SSSP) 2019–2021 Legislative Report</a>
                 </p>
                 <p>
                 </p>
@@ -19,6 +19,6 @@
                 </p>
                 <h2 class="title">Future Work</h2>
                 <p>To further develop this project, I want to write a web scraper to create a database of the school buildings that are listed in the 
-                <a href="https://fortress.wa.gov/com/urmasonary/urmasonary/#7/47.347/-121.029/">Washington URM Dashboard</a>, which provides lists buildings across the state that have a particularly dangerous construction type that presents a high risk of collapse in an earthquake. I also want to parse the OSPI data further to look for trends across geographies, construction types, and risk factors.
+                <a href="https://fortress.wa.gov/com/urmasonary/urmasonary/#7/47.347/-121.029/">Washington URM Dashboard</a>, which provides a map of buildings across the state that have a particularly dangerous construction type that presents a high risk of collapse in an earthquake. I also want to parse the OSPI data further to look for trends across geographies, construction types, and risk factors.
                 </p>
                 <p>https://efkodon.github.io/schools_data_access/</p>
