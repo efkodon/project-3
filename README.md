@@ -15,7 +15,7 @@
                 <p> 
                 </p>
                 <h2 class="title">Skills Learned</h2>
-                <p>To create this project, I developed skills in merging, cleaning, structuring and sorting data using pandas. To gather a greater breadth of data about the schools, I combined the OSPI data with a list of about 4,000 school buildings from the <a href="https://geo.wa.gov/datasets/23bbd746f9924c149681815cfd2a6300/explore?location=47.266088%2C-120.802250%2C7.02&showTabl">Washington Geospatial Open Data Portal</a>. Spot-checking the merged data showed inconsistencies, indicating that the matching process was ultimately unsuccessful and will need to be redone. I also used pandas to parse the data into smaller dataframes and lists for analysis, based on construction type, risk ratings and school districts.
+                <p>To create this project, I developed skills in merging, cleaning, structuring and sorting data using pandas. To gather a greater breadth of data about the schools, I combined the OSPI data with a list of 2,552 schools from the <a href="https://geo.wa.gov/datasets/23bbd746f9924c149681815cfd2a6300/explore?location=47.266088%2C-120.802250%2C7.02&showTabl">Washington Geospatial Open Data Portal</a>. Spot-checking the merged data showed inconsistencies, indicating that the matching process was ultimately unsuccessful and will need to be redone. I also used pandas to parse the data into smaller dataframes and lists for analysis, based on construction type, risk ratings and school districts.
                 </p>
                 <h2 class="title">Future Work</h2>
                 <p>To further develop this project, I want to write a web scraper to create a database of the school buildings that are listed in the 
